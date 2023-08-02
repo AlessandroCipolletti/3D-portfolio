@@ -20,7 +20,6 @@ export function AvatarDark(props) {
     actions.typingAnimation.reset().play()
   }, [actions])
 
-
   return (
     <group {...props} ref={groupRef} dispose={null}>
       <group rotation-x={-Math.PI / 2}>
